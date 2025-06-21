@@ -7,6 +7,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/new',function(){
+    return view('new');
+});
+
+
 Route::get('/testing',function(){
     $data = "This is data";
     return view('testing',[
