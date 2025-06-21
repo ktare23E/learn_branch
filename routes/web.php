@@ -8,5 +8,6 @@ Route::get('/', function () {
 
 
 Route::get('/new',function(){
-    return view('new');
+    $data = "This a test data";
+    return view('new',compact($data));
 });

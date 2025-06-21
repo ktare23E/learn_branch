@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>This is new</h1>
+    <h1>{{$data}}</h1>
 </body>
 </html>
