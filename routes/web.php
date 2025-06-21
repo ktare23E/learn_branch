@@ -9,7 +9,9 @@ Route::get('/', function () {
 
 Route::get('/new',function(){
     $data = "This a test data";
-    return view('new',compact($data));
+    return view('new',[
+        'data' => $data
+    ]);
 });
 
 
