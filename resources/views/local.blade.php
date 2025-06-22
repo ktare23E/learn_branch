@@ -1,1 +1,0 @@
-naa ni sa local karon
